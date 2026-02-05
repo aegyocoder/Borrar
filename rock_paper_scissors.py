@@ -11,7 +11,7 @@ def validacion(user: str, opcCompu: str):
     elif user == "Piedra":
         if opcCompu == "Tijeras":
             return "Piedra mas que tijeras. Ganas"
-        elif opcCompu == "Piedra":
+        elif opcCompu == "Papel":
             return "Papel mas que piedra. Pierdes"
             
     elif user == "Papel":
